@@ -1,0 +1,18 @@
+---
+title: "Readme"
+author: "VRam"
+date: "25 October 2015"
+output: html_document
+---
+
+Getting and Cleaning Data - Project Assignment 
+
+The script run_analysis.R was developed for competing the course project. The features of the script below 
+
+1. Libraries plyr and reshape2 were used for cleaning the raw data 
+2. The activites and features required for the tidy data were first collected 
+3. Post collection the fields were refiend to make them readable 
+4. The training and test datasets were loaded into the respective data frames 
+5. The training and test datasets were merged (row-wise)
+6. The tidy data set was created from the merged data set 
+7. The tidy data set contains the aggregated mean of each subject per activity 
